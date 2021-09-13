@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>The First Article</title>
+        <style>
+
+            body {
+                background:mistyrose;
+            }
+
+            p{
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                color:darkslategray;
+                text-align:justify;
+                line-height:36px;
+                width: 500px;
+                border: solid red 1px;
+                
+            }
+
+            h1 {
+                font-size: 48px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align:center;
+                text-transform:capitalize;
+                color:steelblue;
+            }
+
+            h2 {
+                font-size: 36px;
+                font-family: Arial, Helvetica, sans-serif;
+                color:midnightblue;
+            }
+
+            blockquote, figcaption {
+                font-family:Arial, Helvetica, sans-serif;
+                line-height: 24px;
+                color: indigo;
+            }
+
+            img {
+                border-color: lightcoral;
+                border-width: 10px;
+                border-style: solid;
+                border-radius: 10px;
+                /*width: 100px;*/
+            }
+
+            ul {
+                border: lightcoral 2px solid;
+            }
+
+            li {
+                border: darkcyan 2px solid;
+            }
+            
+            label {
+                font-size: 12px;
+                text-transform: uppercase;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: steelblue;
+            }
+
+            input, textarea {
+                background-color: papayawhip;
+                border: slategray solid 1px;
+                border-radius: 2px;
+                font-size: 24px;
+                color:slategray;
+            }
+
+            textarea {
+                font-family:'Times New Roman', Times, serif;
+                color: red;
+
+            }
+
+            #last {
+                color: teal;
+            }
+
+            #second-img{
+                border-color: yellow;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>First Article</h1>
+
+        <h2>First Section</h2>
+
+        <p>hello</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam reprehenderit omnis voluptatem a iure repudiandae? Eaque tempore debitis mollitia, ducimus nobis inventore eveniet non, minus impedit eligendi officiis voluptate.</p>
+
+        <figure>
+            <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab alias repellat placeat. Veniam possimus nesciunt repellendus voluptates alias optio, voluptas rerum temporibus nulla! Laborum dignissimos illo, magnam nostrum iste ducimus!</blockquote>
+            <figcaption>
+                Mitchell
+            </figcaption>
+        </figure>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cumque laborum minima tempora iure et, vitae quam amet laudantium distinctio mollitia quo dicta fuga veniam blanditiis ipsum possimus nihil omnis!</p>
+        <figure>
+            <img src="images/bread.jpg" alt="basket of bread" />
+            <figcaption>
+                Bread makes you fat
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img id="second-img" src="images/spiral.jpg" alt="looking up a spiraling staircase at man on second floor" />
+            <figcaption>
+                Robert is judging you
+            </figcaption>   
+        </figure>
+        <h2>Second Section</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, esse. Adipisci officiis dignissimos similique id, recusandae aut totam, nihil autem eveniet delectus repellendus nemo voluptas minima temporibus? Obcaecati, facere maxime?</p>
+
+        <p id="last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo, suscipit nobis dicta perspiciatis soluta distinctio ducimus vitae iure. Officia odit a ut odio deleniti tempora incidunt debitis eum ducimus.</p>
+
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident laboriosam pariatur modi laborum, at repudiandae dicta autem voluptatibus quis ab obcaecati veniam quas officia cum blanditiis totam, nobis fugit ipsam?</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nam quisquam dolores facere laudantium iste aperiam tenetur qui debitis tempora! Quidem asperiores rerum quas nulla voluptas expedita repudiandae recusandae amet.</li>
+        </ul>
+        
+        <h2>Third Section</h2>
+
+        <form>
+            <label for="fname">First Name</label>
+            <br />
+            <input id="fname" type="text" />
+            <br />
+            <label for="email">Email Address</label>
+            <br />
+            <input id="email" type="email" />
+            <br />
+            <label for="message">Message</label>
+            <br />
+            <textarea id="message"></textarea>
+            <br />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
