@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>CSS Specificity</title>
+
+        <style>
+
+            /*
+            Selector weights:
+            
+            element: 1
+            class: 10
+            Ids: 100
+            !important: 10000
+            
+            */
+
+            .first {
+                color: darkturquoise;
+            }
+
+            #unique {
+                color: magenta;
+            }
+
+            body p {
+                color: blue;
+            }
+
+            p {
+                color: red;
+            }
+
+            body div p {
+                color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, delectus reprehenderit eaque quae sint, dignissimos excepturi necessitatibus iure fuga dolorum ipsum adipisci natus cupiditate quam sunt, possimus dolore eveniet fugit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem velit, culpa blanditiis rerum repudiandae eius nobis ipsum veritatis tenetur neque sunt vitae voluptatibus fuga nihil? Quidem et nulla iure accusamus!</p>
+
+        <p id="unique">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut repellat commodi tempora exercitationem amet repellendus explicabo, aliquid dolorum eveniet laudantium labore ut fugit! Voluptate officia inventore explicabo dolor officiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, magni. Nemo molestias atque minima, sed voluptate sunt, voluptatem at rem expedita voluptatibus quae temporibus qui incidunt laborum enim, corporis aliquid.</p>
+
+        <div>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quas quidem officia illum saepe doloribus incidunt ratione, facere eveniet tempora, autem optio maxime laborum. Cupiditate quam eaque optio illo architecto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ipsam suscipit doloremque ipsa velit, natus possimus? Sequi beatae laborum voluptates dolore sapiente rerum porro, id ab accusamus inventore iure error?</p>
+
+        </div>
+
+    </body>
+
+</html>

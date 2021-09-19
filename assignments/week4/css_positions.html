@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head></head>
+
+    <meta charset="utf-8" />
+    <title>CSS Positions</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        #red, #green, #blue {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            /*margin: 10px;*/
+        }
+
+        #red {
+            background-color: red;
+            position: absolute;
+            z-index: 1;
+        }
+
+        #green {
+            background-color: green;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            z-index: 2;
+        }
+
+        #blue {
+            background-color: blue;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            z-index: 1;
+        }
+    </style>
+
+<body>
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+</body>
+
+</html>
